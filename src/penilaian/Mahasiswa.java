@@ -2,28 +2,22 @@
 package penilaian;
 
 public class Mahasiswa {
-    String nama;
-    String npm;;
+   private String nama;
+    private String npm;
     
-    void nama (String dc) {
-        nama=dc;
-        System.out.println("Nama Orang  = " +nama);
+    public String getNama() {
+        return nama;
     }
     
-    void npm (String dc) {
-        npm=dc;
-        System.out.println("Alamat      = " +npm);
+    public void setNama(String nama) {
+        this.nama = nama;
     }
     
-    void uts (int uts){
-        throw new UnsupportedOperationException("Not supported yet.");
+    public String getNpm() {
+        return npm;
     }
     
-    void uas (int uas){
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
-    
-    void tugas (int tugas){
-        throw new UnsupportedOperationException("Not supported yet.");
+    public void setNpm(String npm) {
+        this.npm = npm;
     }
 }
